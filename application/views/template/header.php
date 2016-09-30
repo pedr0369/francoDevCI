@@ -7,7 +7,7 @@
 
     <title>FrancoDev</title>
 
-    <link rel="icon" href="<?= base_url('img/bd-favicon.png'); ?>">
+    <link rel="icon" href="<?= base_url('vendor/img/favicon.png'); ?>">
 
     <link href="<?= base_url('vendor/bootstrap/dist/css/bootstrap.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('vendor/bootstrap/dist/css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
@@ -17,3 +17,5 @@
 
   </head>
   <body ng-controller="meuController">
+    
+      <div class="content">
