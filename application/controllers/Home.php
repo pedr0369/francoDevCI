@@ -6,4 +6,14 @@ class Home extends CI_Controller {
 	{
         $this->template->load('template/index', 'home');
 	}
+    
+    public function portfolio()
+    {
+        $this->template->load('template/index', 'portfolio');
+    }
+    
+    public function blog()
+    {
+        $this->template->load('template/index', 'blog');
+    }
 }

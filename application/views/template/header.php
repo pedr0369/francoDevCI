@@ -18,4 +18,4 @@
   </head>
   <body ng-controller="meuController">
     
-      <div class="content">
+      <div class="row-fluid">

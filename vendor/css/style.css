@@ -22,7 +22,11 @@ form button { margin-top: 25px; }
 form .form-group:first-child { padding-left: 0; }
 
 /* nav */
-.navbar { background: #ffffff; }
+.navbar { background: #ffffff; box-shadow: 1px 1px 4px black; }
+
+nav {
+    position: fixed;
+}
 
 .navbar-brand {
     font-family: offside;

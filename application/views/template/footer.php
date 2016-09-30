@@ -7,11 +7,11 @@
             </h5>
         </footer>
 
-
     </div>
-    <script src="vendor/jquery/dist/jquery.min.js"></script>
-    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="vendor/angular/angular.min.js"></script>
-    <script src="vendor/js/AngularController.js"></script>
+
+    <script src="<?= base_url('vendor/jquery/dist/jquery.min.js'); ?>"></script>
+    <script src="<?= base_url('vendor/bootstrap/dist/js/bootstrap.min.js'); ?>"></script>
+    <script src="<?= base_url('vendor/angular/angular.min.js'); ?>"></script>
+    <script src="<?= base_url('vendor/js/AngularController.js'); ?>"></script>
 </body>
 </html>
