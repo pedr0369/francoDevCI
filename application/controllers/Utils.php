@@ -2,10 +2,9 @@
 
 class Utils extends CI_Controller {
 
-    public function migrate(){
+    public function index(){
         $this->load->library('migration');
-        $success = $this->migration->current();
-        if($success){
+        if($this->migration->current()){
             echo "<script>alert('Executado com sucesso');</script>";
         }
         else{
