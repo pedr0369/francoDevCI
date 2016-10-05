@@ -17,7 +17,7 @@
         <li><?= anchor('portfolio', 'Porfolio'); ?></li>
         <li><?= anchor('blog', 'Blog'); ?></li>
         <li><?= anchor('contato', 'Contato'); ?></li>
-        <li><?= anchor('post', 'Post'); ?></li>
+        <li><?= anchor('/post', 'Post'); ?></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
